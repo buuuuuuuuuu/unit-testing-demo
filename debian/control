@@ -1,0 +1,14 @@
+Source: unit-testing-demo
+Section: utils
+Priority: optional
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Build-Depends: 
+ debhelper (>= 12),
+ cmake,
+ pkg-config,
+Homepage: https://www.deepin.org/
+
+Package: unit-testing-demo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: 
